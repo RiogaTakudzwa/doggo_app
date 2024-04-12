@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../services/navigation/Bloc/navigation_bloc.dart';
-import '../../../utils/colour_scheme/colour_scheme.dart';
+import '../../../utils/colour_scheme/general_colour_scheme.dart';
 import '../../../utils/widget_parameters/widget_parameters.dart';
 
 class CustomNavigationBar extends StatefulWidget {

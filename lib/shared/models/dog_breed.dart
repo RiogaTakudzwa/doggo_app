@@ -15,7 +15,7 @@ class DogBreed extends Equatable{
     subBreed
   ];
 
-  factory DogBreed.fromJson(Map<String, dynamic> json){
+  factory DogBreed.fromJson(Map<String, List<String>> json){
     return DogBreed(
       breedName: json.keys.elementAt(0),
       subBreed: json.values.elementAt(0)
